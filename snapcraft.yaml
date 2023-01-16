@@ -1,0 +1,10 @@
+name: alimot-test-snap
+version: "1.0.0"
+summary: Alimot's test snap
+description:  Test snap is a powerful
+confinement: strict
+grade: stable
+base: core20
+assumes:
+  - snapd2.54 # for mount-control
+compression: lzo
